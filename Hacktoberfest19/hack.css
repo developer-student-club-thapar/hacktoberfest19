@@ -45,7 +45,9 @@ div.polaroid {
   padding: 10px;
   font-size: 22px;
 }
-
+p{
+  padding-top:15px;
+}
 .txt {
 	font-size: 22px;
 }
