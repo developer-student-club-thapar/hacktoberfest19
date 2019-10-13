@@ -68,4 +68,63 @@ div.polaroid {
 	top: 35%;
 	text-align: center;
 }
+ml,body{
+	font-size: 1em;
+	line-height: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	background: #f8f8f8;
+	color: #55555;
+	margin:0;
+	padding: 0;
+	height: 100%
+	width: 100%;
+}
+nav{
+	text-align: centre;
+	background-color: #dddddd;
+	margin:0 0;
+	width: 100%;
+}
+ul{
+	width: 80%;
+	padding: 0;
+	margin: 0 auto;
+}
 
+li{
+	box-sizing: border-box;
+	list-style: none;
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 0px;
+}
+
+ul li a{
+	color: #4C9CF1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #444444
+}
+
+li:hover{border-bottom: 1px solid #bbb;
+ }
+
+ .toggle{
+ 	background-color: #bbb;
+ 	width:100%;
+ 	padding: 5px 0 px;
+ 	text-align: center;
+ 	display: none;
+ }
+
+ .menu{
+ 	font-size: 20px;
+ 	margin: 10px 15px;
+ }
+ 
+ .menu:hover{
+ 	cursor:pointer;
+ }
