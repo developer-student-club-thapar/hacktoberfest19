@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   font-family: 'Acme', sans-serif;
-  	margin: 0;
+  margin: 0;
 	width: 100%;
 	height: 100vh;
 	color: #fff;
@@ -13,9 +13,8 @@ body, html {
 }
 
 .circle {
-  width: 300px;
-  height: 300px;
-  margin: 4em 2em;
+  width: 120px;
+  height: 120px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -29,15 +28,44 @@ body, html {
 
 .bg {
   background-image: url("hack.png");
-  position: relative;
   height: 50%;
-  opacity: 1;
+  padding-top: 180px;
   filter: alpha(opacity=70); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+button {
+  background-color: rgb(15, 102, 201);
+  height:50px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(240, 64, 202);
+  box-shadow: 0px 0px 20px rgb(240, 64, 202) ;
+  
+}
+
+button a{
+  color: white;
+}
+button a:hover{
+  color: white;
+  text-decoration: none;
+}
+.bg .wrap-circle{
+  margin-top:100px;
+  align-items: center;
+  height : 150px;
+  width : 80%;
+  margin : auto;
+  display: flex;
+  justify-content: space-around;
+}
 div.polaroid {
   width: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -69,3 +97,23 @@ div.polaroid {
 	text-align: center;
 }
 
+@media screen and (max-width:700px){
+  .circle{
+    height : 80px;
+    width : 80px;
+  }
+  .bg .wrap-circle{
+    width : 90%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .circle{
+    height : 50px;
+    width : 50px;
+  }
+  .bg .wrap-circle{
+    width : 95%;
+    justify-content: space-between;
+  }
+}
